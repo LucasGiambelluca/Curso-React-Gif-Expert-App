@@ -13,20 +13,16 @@ const GifExpertApp = ()=>{
     
     //}
     return <>
-        <h1>Gif Expert App</h1> 
+        <h1 className='AppTitle'>Gif Expert App</h1> 
+        <hr></hr>
         <AddCategory  setCategories={setCategories}/>
         <hr></hr>
-        <div className='container'>
-       
-
         <ol>
             {
                 Category.map(category => <GifGrid category = {category} key = {category} />)
             }
         </ol>   
-        </div>
-       
-    
+
     </>
 }
 
