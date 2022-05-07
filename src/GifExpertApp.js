@@ -8,10 +8,7 @@ const GifExpertApp = ()=>{
 
     const [Category,setCategories]= useState(['Dragon Ball',])
 
- //   const HandleAdd = ()=>{
-   //     return SetCategory([...Category,'One Piece','one piece'])
-    
-    //}
+ 
     return <>
         <h1 className='AppTitle'>Gif Expert App</h1> 
         <hr></hr>
