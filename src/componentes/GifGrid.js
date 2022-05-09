@@ -11,14 +11,14 @@ import  GifGridItem  from './GifGridItem';
        
   return (
       <>
-      <h3 className='titulo'> { category }</h3>
+      <h3 className='titulo animate__animated  animate__jello'> { category }</h3>
     {<div className='container'>
 
-        {loading&&<p className='loading'>Loading....</p>}
+        {loading&&<p className='loading animate__animated animate__flash'>Loading....</p>}
     
         {
             data.map((img)=>(
-            <GifGridItem key= {img.id} {...img} />
+            <GifGridItem  key= {img.id} {...img} />
             ))
         }
 
